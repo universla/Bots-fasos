@@ -6,7 +6,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Crear 40 bots invisibles
-const cantidadBots = 1;
+const cantidadBots = 100000;
 
 const crearBotFantasma = (nombre) => {
   const bot = mineflayer.createBot({
@@ -38,7 +38,7 @@ const crearBotFantasma = (nombre) => {
 for (let i = 1; i <= cantidadBots; i++) {
   setTimeout(() => {
     crearBotFantasma(`Ghost${i}`);
-  }, i * 5000);
+  }, i * 9000);
 }
 
 // Servidor Express para mantener vivo el proceso en Render
