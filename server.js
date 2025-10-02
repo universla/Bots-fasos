@@ -11,7 +11,7 @@ const cantidadBots = 40;
 for (let i = 1; i <= cantidadBots; i++) {
   setTimeout(() => {
     crearBot(`Bot${i}`);
-  }, i * 2000); // 2 segundos entre cada bot
+  }, i * 4000); // 2 segundos entre cada bot
 }
 
 // Servidor Express para mantener vivo el proceso en Render
