@@ -1,11 +1,11 @@
 
 {
-  "name": "bot-minecraft-render",
+  "name": "ghost-bots-minecraft",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "ghost-bots.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node ghost-bots.js"
   },
   "dependencies": {
     "mineflayer": "^4.0.0",
