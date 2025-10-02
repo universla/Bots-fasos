@@ -10,8 +10,8 @@ const cantidadBots = 40;
 
 const crearBotFantasma = (nombre) => {
   const bot = mineflayer.createBot({
-    host: process.env.MINECRAFT_SERVER_HOST || 'localhost',
-    port: parseInt(process.env.MINECRAFT_SERVER_PORT) || 25565,
+    host: process.env.MINECRAFT_SERVER_HOST || 'externalagetcraft.falixsrv.me',
+    port: parseInt(process.env.MINECRAFT_SERVER_PORT) || 26975,
     username: nombre,
     version: process.env.MINECRAFT_VERSION || false, // false = auto-detect
   });
