@@ -38,7 +38,7 @@ const crearBotFantasma = (nombre) => {
 for (let i = 1; i <= cantidadBots; i++) {
   setTimeout(() => {
     crearBotFantasma(`Ghost${i}`);
-  }, i * 9000);
+  }, i * 1000);
 }
 
 // Servidor Express para mantener vivo el proceso en Render
