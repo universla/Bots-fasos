@@ -5,8 +5,8 @@ const express = require('express');
 // Crear bot
 const bot = mineflayer.createBot({
   host: process.env.MINECRAFT_SERVER_HOST || 'localhost',
-  port: parseInt(process.env.MINECRAFT_SERVER_PORT) || 25565,
-  username: process.env.MINECRAFT_BOT_USERNAME || 'RenderBot',
+  port: parseInt(process.env.MINECRAFT_SERVER_PORT) || 26975,
+  username: process.env.MINECRAFT_BOT_USERNAME || 'externalagetcraft.falixsrv.me',
 });
 
 bot.on('chat', (username, message) => {
